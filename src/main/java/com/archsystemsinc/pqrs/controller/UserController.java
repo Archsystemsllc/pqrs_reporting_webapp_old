@@ -60,4 +60,19 @@ public class UserController {
     public String welcome(Model model) {
         return "welcome";
     }
+    
+    @RequestMapping(value = "/index", method = RequestMethod.GET)
+    public String index(Model model, String error){
+    	if (error != null)
+    	model.addAttribute(error, "This is the screen 3");
+    	    	
+		return "index";
+    	
+    }
+    
+    
+    
+    
+    
+    
 }
