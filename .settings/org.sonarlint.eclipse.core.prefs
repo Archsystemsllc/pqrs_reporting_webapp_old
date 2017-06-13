@@ -1,0 +1,5 @@
+autoEnabled=true
+eclipse.preferences.version=1
+extraProperties=
+moduleKey=com.archsystemsinc.pqrs\:pqrs_reporting_webapp
+serverId=ec2-34-210-169-50-Sonar

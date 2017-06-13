@@ -12,7 +12,9 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'war'
 
-
+plugins {
+  id "org.sonarqube" version "3.0"
+}
 repositories {
     mavenCentral()
 }
