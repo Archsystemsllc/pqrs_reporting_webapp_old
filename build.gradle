@@ -3,8 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.3.RELEASE")
-        testCompile 'org.seleniumhq.selenium:selenium-server:2.34.0', 'com.github.detro.ghostdriver:phantomjsdriver:1.0.4'
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.3.RELEASE")       
     }
 }
 plugins {
@@ -39,6 +38,8 @@ dependencies {
     compile('net.sourceforge.nekohtml:nekohtml:1.9.21')
     testCompile("org.springframework.boot:spring-boot-starter-test")
     testCompile("org.springframework:spring-test:4.3.8.RELEASE")
+    testCompile("org.seleniumhq.selenium:selenium-server:2.34.0")
+    testCompile("com.github.detro.ghostdriver:phantomjsdriver:1.0.4")
     
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.3.RELEASE'
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.0.0.RELEASE'
