@@ -25,7 +25,7 @@
     </script>
 	
 <script language="javascript">
-
+        
 		function displayImage()
 		{
 			var selectOption = document.getElementById("type").value;
