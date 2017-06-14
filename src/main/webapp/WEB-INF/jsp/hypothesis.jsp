@@ -29,7 +29,7 @@
 		function displayImage()
 		{
 			var selectOption = document.getElementById("type").value;
-			
+			  
 			if (selectOption == 'option1')
 			{
 				document.getElementById('option1').style.display = 'block';
