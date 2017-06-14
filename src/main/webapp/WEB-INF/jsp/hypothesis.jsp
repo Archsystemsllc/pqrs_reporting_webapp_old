@@ -24,7 +24,7 @@
       
     </script>
 	
-<script language="javascript">
+<script language= "javascript">
 		function displayImage()
 		{
 			var selectOption = document.getElementById("type").value;
