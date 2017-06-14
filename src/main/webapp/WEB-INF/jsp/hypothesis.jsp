@@ -12,6 +12,7 @@
     <script src="https://code.angularjs.org/2.0.0-beta.6/Rx.js"></script>
     <script src="https://code.angularjs.org/2.0.0-beta.6/angular2.dev.js"></script>
     <script>
+    
       System.config({
         transpiler: 'typescript',
         typescriptOptions: { emitDecoratorMetadata: true },
@@ -20,6 +21,7 @@
       });
       System.import('app/environment_main')
             .then(null, console.error.bind(console));
+      
     </script>
 	
 <script language="javascript">
